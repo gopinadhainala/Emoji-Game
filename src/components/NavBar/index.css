@@ -1,0 +1,53 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  padding-left: 52px;
+  padding-right: 52px;
+  align-items: center;
+  background-color: #ffffff33;
+}
+.navbar-game-container {
+  display: flex;
+  align-items: center;
+}
+.emoji-game-logo {
+  margin-right: 10px;
+  height: 40px;
+  width: 40px;
+}
+.navbar-game-title {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 25px;
+  font-family: 'Roboto';
+}
+.nav-score-container {
+  display: flex;
+  align-items: center;
+}
+.score-titles {
+  color: #ffffff;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin-right: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-container {
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+  .emoji-game-logo {
+    height: 45px;
+    width: 45px;
+  }
+  .navbar-game-title {
+    font-weight: 700;
+  }
+  .score-titles {
+    margin-right: 18px;
+    font-weight: 600;
+    font-size: 20px;
+  }
+}

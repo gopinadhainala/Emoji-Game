@@ -1,0 +1,21 @@
+.emoji-background-container {
+  background-image: linear-gradient(to right, #9796f0, #fbc7d4);
+  min-height: 110vh;
+  background-size: cover;
+}
+.emojis-unordered-list {
+  margin: 25px;
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.emoji-center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .emojis-unordered-list {
+  }
+}

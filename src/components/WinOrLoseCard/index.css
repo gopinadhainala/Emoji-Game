@@ -1,0 +1,95 @@
+.win-or-lose-container {
+  padding: 25px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff33;
+  border: 1px solid #ffffff33;
+  border-radius: 8px;
+  width: 80%;
+}
+
+.win-or-lose-card {
+  order: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.win-lose-image {
+  height: 200px;
+  width: 150px;
+}
+.result {
+  font-size: 25px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-bottom: 0px;
+}
+.score {
+  color: #6a59ff;
+  font-size: 35px;
+  margin-top: 0px;
+}
+.best-score {
+  color: #9796f0;
+  font-size: 25px;
+  margin-top: 22px;
+  margin-bottom: 0px;
+}
+.play-again-btn {
+  padding: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #ffce27;
+  color: #3d3d3d;
+  font-weight: 700;
+  border-radius: 20px;
+  border-width: 0px;
+  font-size: 16px;
+}
+@media screen and (min-width: 600px) {
+  .win-lose-image {
+    height: 300px;
+    width: 250px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .win-or-lose-container {
+    flex-direction: row;
+    padding: 40px;
+    width: 60vw;
+    justify-content: space-between;
+  }
+  .win-or-lose-card {
+    order: 0;
+  }
+  .win-lose-image {
+    height: 330px;
+    width: 270px;
+  }
+  .best-score {
+    color: #ffffff;
+    font-size: 55px;
+    font-weight: 500;
+  }
+  .result {
+    font-size: 80px;
+    font-weight: 600;
+  }
+  .score {
+    font-size: 50px;
+    font-weight: 700;
+  }
+}
+@media screen and (min-width: 992px) {
+  .win-or-lose-container {
+    width: 60%;
+  }
+  .win-lose-image {
+    height: 430px;
+    width: 380px;
+  }
+}
